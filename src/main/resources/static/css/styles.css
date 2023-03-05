@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navbar{
+    width: 1200px;
+    padding: 35px 0;
+    height: 75px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-inbetween;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Header styles */
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*header nav {*/
+/*    width: 1200px;*/
+/*    padding: 35px 0;*/
+/*    height: 75px;*/
+/*    display: flex;*/
+/*    margin: auto;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+
+
+/*}*/
+header nav logo {
+    width:70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.hero-text {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background 0.2s ease-in-out;
+}
+
+.cta:hover {
+    background: #2980b9;
+}
+
+/* Services styles */
+
+.services {
+    padding: 80px 0;
+    background: #f5f5f5;
+}
+
+.service {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* CTA section styles */
+
+.cta-section {
+    padding: 80px 0;
+    background: #3498db;
+    color: #fff;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+
+footer {
+    background: #f5f5f5;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 0;
+}

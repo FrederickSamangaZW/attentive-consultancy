@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Attentive Consultancy</title>
+    <link rel="stylesheet" th:href="@{/css/home.css}"/>
+
+</head>
+<body  style="background-image: url('/img/theme.jpg');">
+<div class="overlay"></div>
+<div class="banner">
+    <div class="navbar">
+        <img src="/img/letterhead.png" class="logo" alt="Logo">
+        <ul>
+            <li><a href="@{/}">Home</a></li>
+            <li><a href="@{/services}">Services</a></li>
+            <li><a href="@{/portfolio">Portfolio</a></li>
+            <li><a href="@{/about}">About</a></li>
+            <li><a href="@{/contact}">Contact</a></li>
+        </ul>
+    </div>
+    </div>
+<div class="hero-text">
+    <h1>Welcome to My Website</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a th:href="@{/services}" class="cta">Learn More</a>
+</div>
+<section class="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img th:src="@{/img/service1.jpg}" alt="Service 1"/>
+            <h3>Service 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a th:href="@{/services}" class="cta">Learn More</a>
+        </div>
+        <div class="service">
+            <img th:src="@{/img/service2.jpg}" alt="Service 2"/>
+            <h3>Service 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a th:href="@{/services}" class="cta">Learn More</a>
+        </div>
+        <div class="service">
+            <img th:src="@{/img/service3.jpg}" alt="Service 3"/>
+            <h3>Service 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a th:href="@{/services}" class="cta">Learn More</a>
+        </div>
+    </div>
+</section>
+<section class="cta-section">
+    <div class="container">
+        <h2>Ready to Get Started?</h2>
+        <p>Contact us today to schedule a consultation.</p>
+        <a th:href="@{/contact}" class="cta">Contact Us</a>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </div>
+</footer>
+
+</div>
+
+
+</body>
+</html>
